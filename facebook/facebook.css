@@ -1,0 +1,218 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow: auto;
+}
+
+.UstEkran{
+    width: 100%;
+    height: 720px;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text{
+    display: inline-block;
+    margin-top: -173px;
+}
+
+.FaceLogo{
+    display: flex;
+    justify-content: start;
+    object-fit: cover;
+    width: 280px;
+}
+
+img {
+    width: 280px; 
+}
+
+.FaceText{
+    display: inline-block;
+    width: 541px;
+}
+
+.FaceText p{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+}
+
+.GirisBox{
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.GirisBoxDis{
+    width: 450px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.GirisTextIc{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-style: ridge;
+    border: none;
+    text-align: center;
+    margin-top: 17px;
+    padding: 17px 17px 0px 17px;
+}
+
+input{
+    width: 330px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    margin: -4px;
+    border: 1px solid #dddfe2;   
+}
+
+.buton1 {
+    cursor: pointer;
+    width: 362px;
+    height: 45px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    background-color: #1877f2;
+    border: none;
+    font-size: 20px;
+}
+
+ .buton2{
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    font-size: 17px;
+    line-height: 48px;
+    background-color: #42b72a;
+    width: 205px;
+    text-shadow: none;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+ }
+
+ .SayfaOlustur{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    box-sizing: border-box; 
+ }
+
+ .SayfaOlustur a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+ }
+
+ .GirisTextIc a{
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+ }
+
+ .GirisTextIc hr{
+    border: 1px solid #dadde1;
+ }
+
+input:hover{
+    border: 1px solid #1877f2;
+}
+
+.buton2:hover{
+    background-color: #70c060;
+}
+
+.underline:hover{ text-decoration: underline;
+}
+
+.AltEkran{
+    display: block;
+    font-size: 12px;
+    color: #737373;
+    padding: 8px 20% 0 15%;
+    margin: 0 auto;
+
+}
+
+.ayrim{
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    margin-left: 4%;
+
+}
+
+.plus-button{
+    text-decoration: none;
+    color: #202020;
+    border: 1px solid black;
+    background-color: #e9e9e9;
+    padding: 2px 8px;
+    border: 1px solid rgb(170, 170, 170);
+
+}
+
+.plus-button:hover{
+    background-color: #e6e6e6;
+}
+
+ul li a{
+    color: #737373;
+    text-decoration: none;
+}
+
+ul li{
+    display: inline-block;
+    padding: 5px;
+}
+
+
+
+@media(max-width:1075px){
+    .FaceText{
+        width: 370px;
+    }
+
+    .FaceText p{
+        font-size: 24px;
+}
+
+}
+
+@media(max-width:900px){
+
+.UstEkran{
+    display:flex ;
+    flex-direction: column;
+
+}
+.logo-text{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+}
